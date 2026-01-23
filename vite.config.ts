@@ -5,7 +5,9 @@ import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
-  base: '/front-range-rock-guides/',
+  // Custom domain on GitHub Pages serves the site from the domain root.
+  // If you ever switch back to the repo subpath URL, change this back to '/front-range-rock-guides/'.
+  base: '/',
   server: {
     host: "::",
     port: 8080,
