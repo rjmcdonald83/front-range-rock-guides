@@ -10,31 +10,28 @@ const pricingOptions = [
       "Technique analysis & improvement",
       "Goal-oriented skill development",
       "All ages and skill levels",
-      "Movement coaching included",
     ],
     popular: false,
   },
   {
     title: "Half-Day Outdoor Guiding",
-    duration: "~4 hours",
+    duration: "~3.5 hours",
     groupSize: "1–4 participants",
     features: [
       "Bouldering or single-pitch climbing",
       "All technical gear included",
       "Location based on your goals",
-      "Safety instruction built-in",
     ],
     popular: true,
   },
   {
     title: "Full-Day Outdoor Guiding",
-    duration: "~8 hours",
+    duration: "~7.5 hours",
     groupSize: "1–4 participants",
     features: [
-      "Multi-pitch climbing available",
+      "Bouldering, single-pitch, or multi-pitch",
       "All technical gear included",
       "Classic Front Range locations",
-      "Lunch break at a scenic spot",
     ],
     popular: false,
   },
@@ -126,7 +123,7 @@ const Pricing = () => {
           <p className="font-body text-center text-muted-foreground">
             <strong className="text-primary">Note:</strong> All technical gear (ropes, harnesses, helmets) 
             is included. Rates do not include required park entry fees (e.g., Eldorado Canyon, State Parks) 
-            if clients drive themselves. Custom programs and curriculum development available upon request.
+            if clients drive themselves.
           </p>
         </div>
       </div>

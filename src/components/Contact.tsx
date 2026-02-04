@@ -135,7 +135,7 @@ const Contact = () => {
                   "Sending..."
                 ) : (
                   <>
-                    Send My Inquiry
+                    Let's Go Climbing
                     <Send className="w-4 h-4 ml-2" />
                   </>
                 )}
@@ -161,10 +161,10 @@ const Contact = () => {
                 <div>
                   <p className="font-body font-semibold text-primary">Email</p>
                   <a
-                    href="mailto:ryan@frontrangerockguides.com"
+                    href="mailto:ryan@abckidsclimbing.com"
                     className="font-body text-muted-foreground hover:text-accent transition-colors"
                   >
-                    ryan@frontrangerockguides.com
+                    ryan@abckidsclimbing.com
                   </a>
                 </div>
               </div>
