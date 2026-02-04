@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 const pricingOptions = [
   {
     title: "Private Indoor Coaching",
-    duration: "~1.5 hours",
+    duration: "$75/hour",
     groupSize: "1–4 participants",
     features: [
       "Technique analysis & improvement",
@@ -51,8 +51,11 @@ const Pricing = () => {
             Programs & Pricing
           </h2>
           <p className="font-body text-muted-foreground text-lg leading-relaxed">
-            Private, educational, and tailored climbing programs for the Front Range area. 
+            Private, educational, and tailored climbing programs offered through ABC Kids Climbing. 
             All rates are customized based on your specific needs—contact for a personalized quote.
+          </p>
+          <p className="font-body text-muted-foreground text-base mt-4 italic">
+            Flexible pricing is available for those who need it—just ask.
           </p>
         </div>
 

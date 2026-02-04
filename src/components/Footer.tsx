@@ -13,7 +13,7 @@ const Footer = () => {
             className="flex items-center gap-2 font-display text-lg font-semibold"
           >
             <Mountain className="w-6 h-6" />
-            <span>Front Range Rock Guides</span>
+            <span>Ryan McDonald</span>
           </a>
 
           {/* Links */}
@@ -40,7 +40,7 @@ const Footer = () => {
 
           {/* Copyright */}
           <p className="font-body text-sm text-primary-foreground/70">
-            © {currentYear} Front Range Rock Guides. All rights reserved.
+            © {currentYear} Ryan McDonald. All rights reserved.
           </p>
         </div>
       </div>
