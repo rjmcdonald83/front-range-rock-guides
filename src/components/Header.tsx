@@ -38,8 +38,7 @@ const Header = () => {
             }`}
           >
             <Mountain className="w-6 h-6" />
-            <span className="hidden sm:inline">Front Range Rock Guides</span>
-            <span className="sm:hidden">FRRG</span>
+            <span>Ryan McDonald</span>
           </a>
 
           {/* Desktop Navigation */}
