@@ -48,7 +48,7 @@ const Pricing = () => {
             Programs & Pricing
           </h2>
           <p className="font-body text-muted-foreground text-lg leading-relaxed">
-            Private, educational, and tailored climbing programs offered through ABC Kids Climbing. 
+            Private, educational, and tailored climbing programs built around your goals.
             All rates are customized based on your specific needs—contact for a personalized quote.
           </p>
           <p className="font-body text-muted-foreground text-base mt-4 italic">
