@@ -4,8 +4,8 @@ import ryanClimbing from "@/assets/ryan-climbing.jpeg";
 const credentials = [
   {
     icon: Award,
-    title: "AMGA Certified",
-    description: "Apprentice Rock Guide",
+    title: "Certifications ",
+    description: "AMGA Apprentice Rock Guide\nAMGA SPI\nWilderness First Responder",
   },
   {
     icon: BookOpen,
@@ -14,13 +14,13 @@ const credentials = [
   },
   {
     icon: Users,
-    title: "Outward Bound",
-    description: "Instructor Alumnus",
+    title: "Field Experience",
+    description: "Outward Bound Instructor \nHead Guide - ABC Kids Climbing\nGuide - CWRAG",
   },
   {
     icon: Mountain,
-    title: "Lead Coach",
-    description: "ABC Kids Climbing",
+    title: "Coach",
+    description: "\n\nYouth and Adult Coaching\n\nRecreational and Competitive",
   },
 ];
 
@@ -64,11 +64,7 @@ const About = () => {
                 Prescott College and has instructed for a variety of organizations including 
                 Prescott College, Chadwick School, and Outward Bound.
               </p>
-              <p>
-                Ryan holds an AMGA Apprentice Rock Guide Certification and serves as a lead 
-                guide and lead coach at ABC Kids Climbing, delivering effective, safe instruction 
-                for youth and adults alike.
-              </p>
+              <p></p>
             </div>
 
             {/* Credentials Grid */}
