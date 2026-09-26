@@ -5,7 +5,7 @@ const credentials = [
   {
     icon: Award,
     title: "AMGA Certified",
-    description: "Assistant Rock Guide",
+    description: "Apprentice Rock Guide",
   },
   {
     icon: BookOpen,
@@ -65,7 +65,7 @@ const About = () => {
                 Prescott College, Chadwick School, and Outward Bound.
               </p>
               <p>
-                Ryan holds an AMGA Assistant Rock Guide Certification and serves as a lead 
+                Ryan holds an AMGA Apprentice Rock Guide Certification and serves as a lead 
                 guide and lead coach at ABC Kids Climbing, delivering effective, safe instruction 
                 for youth and adults alike.
               </p>

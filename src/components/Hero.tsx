@@ -32,7 +32,7 @@ const Hero = () => {
 
           {/* Subheading */}
           <p className="font-body text-lg md:text-xl text-primary-foreground/85 max-w-2xl mx-auto mb-10 leading-relaxed opacity-0 animate-fade-up delay-200">
-            Learn to climb safely and confidently with Ryan McDonald, AMGA Assistant Rock Guide and seasoned educator.
+            Learn to climb safely and confidently with Ryan McDonald, AMGA Apprentice Rock Guide and seasoned educator.
             Private coaching and guiding across the Colorado Front Range.
           </p>
 
