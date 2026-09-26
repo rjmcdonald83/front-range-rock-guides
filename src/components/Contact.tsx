@@ -161,10 +161,10 @@ const Contact = () => {
                 <div>
                   <p className="font-body font-semibold text-primary">Email</p>
                   <a
-                    href="mailto:ryan@abckidsclimbing.com"
+                    href="mailto:rjmcdonald83@gmail.com"
                     className="font-body text-muted-foreground hover:text-accent transition-colors"
                   >
-                    ryan@abckidsclimbing.com
+                    rjmcdonald83@gmail.com
                   </a>
                 </div>
               </div>
