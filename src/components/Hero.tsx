@@ -20,7 +20,7 @@ const Hero = () => {
         <div className="max-w-4xl mx-auto">
           {/* Tagline */}
           <p className="text-accent font-body text-sm md:text-base font-medium tracking-widest uppercase mb-4 opacity-0 animate-fade-up">
-            AMGA Certified • Boulder, Colorado
+            AMGA APPRENTICE ROCK GUIDE • BOULDER, COLORADO
           </p>
 
           {/* Main Heading */}
