@@ -4,23 +4,23 @@ import ryanClimbing from "@/assets/ryan-climbing.jpeg";
 const credentials = [
   {
     icon: Award,
-    title: "Certifications ",
-    description: "AMGA Apprentice Rock Guide\nAMGA SPI\nWilderness First Responder",
+    title: "Certifications",
+    bullets: ["AMGA Apprentice Rock Guide", "AMGA SPI", "Wilderness First Responder"],
   },
   {
     icon: BookOpen,
     title: "Adventure Education",
-    description: "Prescott College Graduate",
+    bullets: ["Prescott College Graduate"],
   },
   {
     icon: Users,
     title: "Field Experience",
-    description: "Outward Bound Instructor \nHead Guide - ABC Kids Climbing\nGuide - CWRAG",
+    bullets: ["Outward Bound Instructor", "Head Guide — ABC Kids Climbing", "Guide — CWRAG"],
   },
   {
     icon: Mountain,
     title: "Coach",
-    description: "\n\nYouth and Adult Coaching\n\nRecreational and Competitive",
+    bullets: ["Youth and Adult Coaching", "Recreational and Competitive"],
   },
 ];
 
@@ -64,24 +64,36 @@ const About = () => {
                 Prescott College and has instructed for a variety of organizations including 
                 Prescott College, Chadwick School, and Outward Bound.
               </p>
-              <p></p>
             </div>
 
             {/* Credentials Grid */}
-            <div className="grid grid-cols-2 gap-4">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
               {credentials.map((cred) => (
                 <div
                   key={cred.title}
-                  className="flex items-start gap-3 p-4 bg-background rounded-lg border border-border"
+                  className="flex items-start gap-4 p-5 bg-background rounded-xl border border-border shadow-sm"
                 >
-                  <cred.icon className="w-5 h-5 text-accent flex-shrink-0 mt-0.5" />
-                  <div>
-                    <p className="font-body font-semibold text-primary text-sm">
+                  <span className="flex-shrink-0 w-10 h-10 rounded-lg bg-accent/15 flex items-center justify-center">
+                    <cred.icon className="w-5 h-5 text-accent" />
+                  </span>
+                  <div className="min-w-0">
+                    <p className="font-body font-semibold text-primary text-sm mb-1.5">
                       {cred.title}
                     </p>
-                    <p className="font-body text-muted-foreground text-xs">
-                      {cred.description}
-                    </p>
+                    <ul className="space-y-1">
+                      {cred.bullets.map((bullet) => (
+                        <li
+                          key={bullet}
+                          className="font-body text-muted-foreground text-xs leading-relaxed flex items-start gap-2"
+                        >
+                          <span
+                            aria-hidden
+                            className="mt-[0.4rem] w-1 h-1 rounded-full bg-accent flex-shrink-0"
+                          />
+                          {bullet}
+                        </li>
+                      ))}
+                    </ul>
                   </div>
                 </div>
               ))}
